@@ -1,0 +1,73 @@
+/* Colores:
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+
+/* Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+
+.header-top-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo-ml{
+    width: 40%;
+}
+.barra-busqueda{
+    text-align: center;
+    margin-top: 80px;
+    width: 30%;
+}
+
+.header-bottom-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+    /* MAIN */
+main{
+    width: 90%;
+    margin: 10px;
+}
+.banner{
+    margin: auto;
+}
+.titulares{
+    font-size: 24px;
+}.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;;
+}
+.descripciones{
+    font-size: 16px;
+}
+
