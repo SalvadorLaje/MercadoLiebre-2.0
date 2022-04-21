@@ -33,22 +33,59 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.menu>.menu__lista>li>a>i{
+    margin: 5px;
+}
+.header-text>p{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 300;
+    font-weight: bold;
+    
+}
 .logo-ml{
     width: 40%;
 }
 .barra-busqueda{
     text-align: center;
-    margin-top: 80px;
+    padding-top: 5%;
     width: 30%;
 }
+.barra{
+    width: 60%;
+    height: 30px;
+}
 
-.header-bottom-section{
+.cont-menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
+.cont-menu{
+    margin: 10px;
+}
+.menu{
+    margin-bottom: 10px;
+}
+.menu__lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu>ul.menu__lista>li{
+    list-style: none;
+    padding: 0px 17px 0px 11px;
+}
+.menu>ul.menu__lista>li>a{
+    margin: 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 300;
+    font-size: 15px;
 
+}
 
     /* MAIN */
 main{
