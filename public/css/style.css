@@ -97,14 +97,107 @@ header{
     padding: 12px;
     position: relative;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
     /* MAIN */
 main{
     width: 90%;
+    text-align: center;
     margin: 10px;
+    background-color: #ebebeb;
+}
+main img{
+    width: 100%;
 }
 .home-banner{
     margin: auto;
+}
+.main-art__cont-product{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.main-art__cont-product>.cont-product__producto{
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 20%;  
+}
+.producto__img{
+    border-bottom: 1px solid #ebebeb;
+}
 
 
+main section article i{
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.producto__icono{
+    position: relative;
+}
+.valor__descuento{
+    color:  #39b54a;
+    margin-right: 5px;
+}
+
+.titulares{
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+.valor__precio{
+    font-size: 18px;
+    width: 30%;
+}
+.valor__descuento{
+    font-size: 16px;
+    width: 70%;
+}
+.descripcion__nombre{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.descripcion__valor{
+    display: flex;
+    margin: 5px;
+}
+
+/* FOOTER */
+.footer-art{
+    display: flex;
+}
+.footer-art>.art__cont{
+    text-align: center;
+    margin: 20px;
+}
+.descripcion__titulo{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+.footer-art >.art__cont>.cont__icon>i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.art__copyright{
+    font-weight:bold;
+    margin: 10px;
+    margin-top: 25px;
+}
