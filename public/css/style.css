@@ -104,19 +104,7 @@ main{
     width: 90%;
     margin: 10px;
 }
-.banner{
+.home-banner{
     margin: auto;
-}
-.titulares{
-    font-size: 24px;
-}.precios{
-    font-size: 18px;
-}
-.descuentos{
-    font-size: 16px;
-    color: #39b54a;;
-}
-.descripciones{
-    font-size: 16px;
-}
+
 
